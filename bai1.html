@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phương trình bậc 1</title>
+</head>
+<body>
+<script>
+
+let arr = [ 6,7,8,9,6,8,9,8,9]
+    function findMax(arr){
+        let max = arr[0];
+        for (let i = 1; i < arr.length; i++) {
+            if(arr[i] >= max)
+                max = arr[i]
+        }
+        return max;
+    }
+let diemMax = findMax(arr)
+alert(diemMax);
+
+</script>
+</body>
+</html>
